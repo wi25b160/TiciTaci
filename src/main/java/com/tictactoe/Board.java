@@ -33,4 +33,7 @@ public class Board {
             System.out.println("|" + row[0] + "|" + row[1] + "|" + row[2] + "|");
         }
     }
+    public char[][] getCells() {
+        return cells;
+    }
 }
