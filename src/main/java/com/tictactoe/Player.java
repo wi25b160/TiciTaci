@@ -1,17 +1,13 @@
 package com.tictactoe;
 
 public class Player {
-    package com.tictactoe;
+    private char marker;
 
-    public class Player {
-        private char marker;
+    public Player(char marker) {
+        this.marker = marker;
+    }
 
-        public Player(char marker) {
-            this.marker = marker;
-        }
-
-        public char getMarker() {
-            return marker;
-        }
+    public char getMarker() {
+        return marker;
     }
 }
