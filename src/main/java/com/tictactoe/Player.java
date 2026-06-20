@@ -1,8 +1,5 @@
 package com.tictactoe;
 
-public class Player {
-    package com.tictactoe;
-
     public class Player {
         private char marker;
 
@@ -14,4 +11,3 @@ public class Player {
             return marker;
         }
     }
-}
